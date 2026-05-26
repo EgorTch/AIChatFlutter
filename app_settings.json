@@ -1,0 +1,33 @@
+{
+    "theme": "dark",
+    "default_model": "gpt-3.5-turbo",
+    "default_provider": "openrouter",
+    "max_tokens": 1000,
+    "temperature": 0.7,
+    "save_history": true,
+    "auto_update": false,
+    "backup_enabled": true,
+    "backup_interval": 24,
+    "metrics_collection": true,
+    "language": "ru",
+    "ui": {
+        "font_size": 16,
+        "animations_enabled": true,
+        "compact_mode": false
+    },
+    "navigation": {
+        "tabs": [
+            "chat",
+            "providers",
+            "stats",
+            "expenses"
+        ],
+        "default_tab": "chat"
+    },
+    "advanced": {
+        "debug_mode": false,
+        "log_level": "INFO",
+        "cache_size": 100,
+        "timeout": 30
+    }
+}
