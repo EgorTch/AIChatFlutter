@@ -68,6 +68,7 @@
 
 ## 📦 Быстрый старт
 
+```
 git clone https://github.com/EgorTch/AIChatFlutter.git
 cd AIChatFlutter
 flutter pub get
@@ -75,9 +76,11 @@ cp .env.example .env
 flutter run
 
 Подробная инструкция: INSTALL.md
+```
 
 ## 🏗 Архитектура проекта
 
+```
 lib/
 ├── main.dart
 ├── api/
@@ -95,6 +98,7 @@ lib/
 │   ├── stats_screen.dart
 │   └── expenses_screen.dart
 └── assets/
+```
 
 ## 🎨 Навигация
 
